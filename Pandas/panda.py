@@ -45,3 +45,8 @@ popedColum = dt2.pop('HalfElement')
 print(popedColum)
 # creat a csv file of the data set that are avaible in the same folder of the open in vscode 
 dt2.to_csv("CSV file creation ")
+# to remove the index that are show use index=false , we also assign the new header mean colum number 
+#dt2.to_csv("CSV file creation ", header=[1,2,3,4,5])
+# to read the csv file use read_csv function to get nrows =5 to get the first 5 row of the csv file
+# and to get the particular column use usecols = [0,1,2,3,4] to get the first 5 column of
+#  to skip the number of row skiprows[0]
